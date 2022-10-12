@@ -13,6 +13,8 @@ public class StudentService {
 		switch (id) {
 			case 1:
 				return Optional.of(new Student(1,"qwe", "asd"));
+			case 2:
+				return Optional.of(new Student(2, "tolik", "gus"));
 			default:
 				return Optional.empty();
 		}

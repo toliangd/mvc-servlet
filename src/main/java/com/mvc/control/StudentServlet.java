@@ -18,6 +18,7 @@ import com.mvc.model.StudentService;
 
 		    private StudentService studentService = new StudentService();
 
+			//Этот метод обрабатывает HTTP-запросы GET и POST
 		    private void processRequest(
 		      HttpServletRequest request, HttpServletResponse response) 
 		      throws ServletException, IOException {
